@@ -39,3 +39,34 @@
 # new_books = ('Музыка', 'Русский Язык')
 # all_books = books + new_books
 # print(all_books)
+
+#_____________________________________________________________________________________________________________
+
+#                       Словари!
+dict = {'aple' : 'Яблоко',
+        'bold' : 'Жирный',
+        'bus' : 'Автобус',
+        'cat' : 'Кот',
+        'car' : 'Автомобиль'}
+print(dict)
+
+for i in dict:
+    print(i, dict[i])
+
+print()
+
+print('дополняем словарь')
+
+dict['tets'] = 'тест'
+
+for i in dict:
+    print(i, dict[i])
+
+print('Удаляем значение со словаря')
+del dict['tets']
+
+print()
+
+for i in dict:
+    print(i, dict[i])
+
